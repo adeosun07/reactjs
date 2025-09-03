@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: adobe-clean, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+h1 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+button {
+  width: 95%;
+  height: 30px;
+  margin: 10px auto 0px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #cebafa;
+}
+a {
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  color: inherit;
+}
+main {
+  width: 250px;
+  height: 445px;
+  margin: 6rem auto;
+  padding: 20px 10px 5px;
+  background-color: #f7f8fa;
+  border: 1px solid #e7e7e7;
+}
+.landingPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+}
+.landingPage p {
+  margin: 5px 0 10px;
+  opacity: 0.5;
+}
+.mainButton {
+  background-color: #6d26ff;
+  color: #fff;
+  border: none;
+}
+.signupScreen fieldset {
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+  margin: 10px 0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.signupScreen fieldset:focus-within {
+  opacity: 1;
+  border: 1.5px solid #6d26ff;
+}
+.signupScreen legend,
+.signupScreen p {
+  font-size: 0.7rem;
+  letter-spacing: 0.6px;
+}
+legend {
+  margin: 0 0 0 10px;
+  padding: 0 5px 0 3px;
+  color: #6d26ff;
+}
+.signupScreen fieldset input {
+  border: none;
+  width: 100%;
+  padding: 5px;
+  background-color: inherit;
+  font-size: 12px;
+  margin: 5px 5px 10px 5px;
+}
+.signupScreen fieldset input:focus {
+  outline: none;
+}
+.signupScreen h1 {
+  margin-bottom: 10px;
+}
+.signupScreen span {
+  color: red;
+}
+.signupScreen p {
+  margin-bottom: 5px;
+}
+label {
+  font-size: 14px;
+  margin-right: 15px;
+  margin-left: 3px;
+}
+input[type="radio"] {
+  accent-color: #6d26ff;
+}
+.createAccount {
+  margin-top: 30px;
+}
+.signupScreen .loginText {
+  opacity: 0.6;
+}
+.loginForm {
+  margin-top: 20px;
+}
+.loginForm button:hover,
+.signupForm button:hover {
+  background-color: #6d26ff;
+  color: #fff;
+  border: none;
+}
+main.profileScreen {
+  padding: 0px;
+  background-color: #f9f9f9;
+}
+.profileScreen > .title {
+  padding: 15px 10px;
+  background-color: #fff;
+  font-size: 12px;
+}
+.profile {
+  height: 70px;
+  display: flex;
+  gap: 20px;
+  padding: 10px 10px 0px;
+}
+.profilePic {
+  height: 50px;
+  width: 50px;
+  position: relative;
+}
+.camera {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  right: -6px;
+  bottom: 0px;
+  background-color: #6d26ff;
+  border-radius: 50%;
+  padding: 2px;
+}
+img,
+svg {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.profileScreen p {
+  opacity: 0.6;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.profile h1 {
+  font-size: 14px;
+  margin: 5px 0;
+}
+.profileScreen .intro{
+  padding: 0 10px 10px;
+  border-bottom: 1px dashed #e7e7e7 ;
+}
